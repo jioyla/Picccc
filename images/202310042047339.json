@@ -1,0 +1,93 @@
+{
+  "picBed": {
+    "current": "github",
+    "uploader": "github",
+    "smms": {
+      "token": ""
+    },
+    "tcyun": {
+      "appId": "1309601295",
+      "area": "ap-shanghai",
+      "bucket": "feifei4261-1309601295",
+      "customUrl": "",
+      "path": "img/",
+      "secretId": "AKIDZ5JQimZ4HDsJSKwHK5cttd5F7h02nIVQ",
+      "secretKey": "iCRQ9cnhMlvoRovnPlrgDUqwkHXWDl33",
+      "version": "v5"
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": true
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": false
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": false
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": false
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      }
+    ],
+    "github": {
+      "branch": "main",
+      "customUrl": "",
+      "path": "images/",
+      "repo": "jioyla/Picccc",
+      "token": "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"
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": false,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "快捷上传"
+      }
+    },
+    "server": {
+      "enable": true,
+      "host": "127.0.0.1",
+      "port": 36677
+    },
+    "privacyEnsure": true,
+    "showUpdateTip": false,
+    "pasteStyle": "markdown",
+    "checkBetaUpdate": false,
+    "rename": false,
+    "autoRename": true,
+    "logLevel": [
+      "all"
+    ],
+    "uploadNotification": false,
+    "autoStart": true
+  },
+  "picgoPlugins": {},
+  "debug": true,
+  "PICGO_ENV": "GUI",
+  "needReload": false
+}
